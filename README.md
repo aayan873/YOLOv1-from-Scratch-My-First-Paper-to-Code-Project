@@ -24,15 +24,15 @@ It includes the full model architecure, custom loss function, and data pipeline,
 > Training has not been completed due to compute limitations.  
 > The code includes a test forward pass and modular structure to support future training and visualization.
 
-## Project Structure
+## 📁 Project Structure
 
-├── model.py # YOLOv1 architecture
-├── loss.py # Custom YOLOv1 loss function
-├── utils.py # Utility functions (e.g., IOU, grid conversions)
-├── dataset.py # Data pipeline placeholder
-├── training.py # Training script (untrained)
-├── inference.py # Inference on test set
-├── README.md # This file!
+- `model.py` — Implements the YOLOv1 architecture in PyTorch.
+- `loss.py` — Defines the custom YOLOv1 loss function (localization, confidence, and classification).
+- `utils.py` — Contains utility functions like IoU calculation, grid transformations, etc.
+- `dataset.py` — Placeholder for dataset loading (e.g., Pascal VOC).
+- `training.py` — Training pipeline (written but not executed due to compute limitations).
+- `inference.py` — Runs inference and visualizes predictions on test images.
+- `README.md` — Project overview and documentation (this file).
 
 ## 🔧 Requirements
 
